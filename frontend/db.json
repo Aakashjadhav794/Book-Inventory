@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "publisher": "Penguin",
+      "publishedDate": "2018-10-16",
+      "description": "Self improvement book. Focuses on building good habits and breaking bad ones.Self improvement book. Focuses on building good habits and breaking bad ones. Self improvement book. Focuses on building good habits and breaking bad ones."
+    },
+    {
+      "id": 2,
+      "title": "Sample Book",
+      "author": "John Doe",
+      "publisher": "Demo Publisher",
+      "publishedDate": "2020-05-05",
+      "description": "This is a sample description with proper spacing so UI remains stable."
+    },
+    {
+      "id": 3,
+      "title": "Test Book",
+      "author": "Jane Smith",
+      "publisher": "Test House",
+      "publishedDate": "2011-11-11",
+      "description": "Short description."
+    }
+  ]
+}
