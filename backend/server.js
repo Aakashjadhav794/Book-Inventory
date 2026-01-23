@@ -9,6 +9,10 @@ const DB_FILE = "./db.json";
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Book Inventory Backend is running 🚀");
+});
+
 const readDB = () =>
   JSON.parse(fs.readFileSync(DB_FILE, "utf-8"));
 
