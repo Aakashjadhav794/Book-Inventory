@@ -1,9 +1,11 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/books";
+const API = axios.create({
+  baseURL: "https://book-inventory-0s10.onrender.com"
+});
 
-export const getBooks = () => axios.get(API_URL);
-export const getBookById = (id) => axios.get(`${API_URL}/${id}`);
-export const addBook = (data) => axios.post(API_URL, data);
-export const updateBook = (id, data) => axios.put(`${API_URL}/${id}`, data);
-export const deleteBook = (id) => axios.delete(`${API_URL}/${id}`);
+export const getBooks = () => API.get("/books");
+export const getBookById = (id) => API.get(`/books/${id}`);
+export const addBook = (data) => API.post("/books", data);
+export const updateBook = (id, data) => API.put(`/books/${id}`, data);
+export const deleteBook = (id) => API.delete(`/books/${id}`);
