@@ -1,28 +1,82 @@
-{
-  "books": [
-    {
-      "id": 1,
-      "title": "Atomic Habits",
-      "author": "James Clear",
-      "publisher": "Penguin",
-      "publishedDate": "2018-10-16",
-      "description": "Self improvement book. Focuses on building good habits and breaking bad ones.Self improvement book. Focuses on building good habits and breaking bad ones. Self improvement book. Focuses on building good habits and breaking bad ones."
-    },
-    {
-      "id": 2,
-      "title": "Sample Book",
-      "author": "John Doe",
-      "publisher": "Demo Publisher",
-      "publishedDate": "2020-05-05",
-      "description": "This is a sample description with proper spacing so UI remains stable."
-    },
-    {
-      "id": 3,
-      "title": "Test Book",
-      "author": "Jane Smith",
-      "publisher": "Test House",
-      "publishedDate": "2011-11-11",
-      "description": "Short description."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "publisher": "Penguin",
+    "publishedDate": "2018-10-16",
+    "description": "A practical guide to building good habits and breaking bad ones."
+  },
+  {
+    "id": 2,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "publisher": "HarperOne",
+    "publishedDate": "1988-04-15",
+    "description": "A philosophical story about following your dreams and listening to your heart."
+  },
+  {
+    "id": 3,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "publisher": "Prentice Hall",
+    "publishedDate": "2008-08-01",
+    "description": "A handbook of agile software craftsmanship for writing clean and maintainable code."
+  },
+  {
+    "id": 4,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "publisher": "Grand Central Publishing",
+    "publishedDate": "2016-01-05",
+    "description": "Rules for focused success in a distracted world."
+  },
+  {
+    "id": 5,
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "publisher": "The Ralston Society",
+    "publishedDate": "1937-03-01",
+    "description": "A classic book on personal success and mindset."
+  },
+  {
+    "id": 6,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "publisher": "Addison-Wesley",
+    "publishedDate": "1999-10-30",
+    "description": "Essential tips and practices for modern software developers."
+  },
+  {
+    "id": 7,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "publisher": "Warner Books",
+    "publishedDate": "1997-04-01",
+    "description": "Lessons about money, investing, and financial independence."
+  },
+  {
+    "id": 8,
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "publisher": "Portfolio",
+    "publishedDate": "2009-10-29",
+    "description": "How great leaders inspire everyone to take action."
+  },
+  {
+    "id": 9,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "publisher": "Harriman House",
+    "publishedDate": "2020-09-08",
+    "description": "Timeless lessons on wealth, greed, and happiness."
+  },
+  {
+    "id": 10,
+    "title": "You Don’t Know JS",
+    "author": "Kyle Simpson",
+    "publisher": "O’Reilly Media",
+    "publishedDate": "2015-12-27",
+    "description": "A deep dive into the core mechanisms of JavaScript."
+  }
+]
